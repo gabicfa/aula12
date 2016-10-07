@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<title>Cria</title>
+</head>
+<body>
+<div class="container">
+	<hr>
+	<h3>Informacoes pessoais</h3>
+	<form action= "cria.jsp" method="post">
+		<div class="input-group">
+		  <span class="input-group-addon" id="basic-addon1">Nome</span>
+		  <input type="text" class="form-control" name="nome" placeholder="Nome" aria-describedby="basic-addon1">
+		</div>
+		<div class="input-group">
+		  <span class="input-group-addon" id="basic-addon1">Nascimento</span>
+		  <input type="date" class="form-control" name="nascimento" aria-describedby="basic-addon1">
+		</div>
+		<div class="input-group">
+		  <span class="input-group-addon" id="basic-addon1">Altura</span>
+		  <input type="number" step=0.1 class="form-control" name="altura" placeholder="Altura [m]" aria-describedby="basic-addon1">
+		</div>
+		<div class="input-group">
+		  <span class="input-group-addon" id="basic-addon1">Passaporte</span>
+		  <input type="text" class="form-control" name="passaporte" placeholder="Numero Passaporte" aria-describedby="basic-addon1">
+		</div>
+		<br>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>
+</body>
+</html>
